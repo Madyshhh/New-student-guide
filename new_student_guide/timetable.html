@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    Created by MV in 2022
+    Information, data and design in this website is referenced from ©The University of Stirling,
+    and in this website used for educational purposes. 
+ -->
+
+<head>
+    <meta content="text/html"; charset="utf-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Author of the website -->
+    <meta name="author" content="Maddy Vetra">
+    <meta name="description" content="universityofstirling, new student guide, students, stirling">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Font import -->
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Open+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- Main stylesheet import -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Stylesheet import for each page -->
+    <link rel="stylesheet" type="text/css" href="css/timetable.css">
+
+    <!-- Display on browser tab -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Timetable | New student guide | University of Stirling</title>
+
+    <!-- script import and Jquery script for animations -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+                $(".main-section").slideDown(1000);
+        });
+    </script>
+</head>
+
+<body>
+    <!-- navigation at the top of the page -->
+    <!-- used in all pages -->
+    <div class="nav">
+        <a href="index.html" class="nav-logo-link"><img src="images/logo.svg" alt="University of Stirling logo" class="nav-logo"></a>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="enrollment.html">Enrolment</a></li>
+            <li><a href="timetable.html">Timetable</a></li>
+            <li><a href="interest.html">Interest groups</a></li>
+            <li><a href="campus.html">Campus</a></li>
+            <li><a href="apps.html">Uni apps</a></li>
+        </ul>
+    </div>
+
+    <!-- breadcrumb trail section -->
+    <div class="breadcrumb-trail">
+        <p><a href="index.html">Home</a> > <a href="timetable.html">Timetable</a></p>
+    </div>
+
+    <!-- main section of the page -->
+    <div class="main-section">
+        <h1 class="main-heading">Everything you need to know about your timetable!</h1>
+        <p>Here is all the information you need to understand your timetable, and lecture types, and how to mark your
+            attendance.</p>
+
+        <!-- Section of the page displayed as grid, with the green line at the top -->
+        <div class="topics">
+            <!-- Grid elements -->
+            <div class="grid-box-span">
+                <h3>Understanding the timetable:</h3>
+                <p>After you have sucsessfully enroled, chosed your modules and module groups, you will have your
+                    personalised timetable, which you will be
+                    able to access through University app. You will only have to attend the labs and seminars you have
+                    chosen. <br><br>
+                    <span class="important">Note</span>, it is easy to get overwhelmed by looking a the full timetable
+                    for the modules, as that will show you all the labs, all the seminars, but you
+                    don`t have to attend them all, only the ones you chose.
+                </p>
+            </div>
+            <!-- Embedded vimeo video -->
+            <div class="grid-box-video">
+                <div style="padding:56.25% 0 20px 0;position:relative;"><iframe
+                        src="https://player.vimeo.com/video/726682696?h=80a5660844&title=0&byline=0&portrait=0"
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+        </div>
+
+        <!-- Section of the page displayed as grid, with the green line at the top -->
+        <div class="topics">
+            <!-- Grid elements -->
+            <div class="grid-box">
+                <h3>Understanding the lecture types:</h3>
+                <p>There is different type of lectures/classes for each module. Some modules might not have tutorials
+                    and only have labs, for example.
+                    All modules will have lectures, but they might be pre-recorder in videos, which would mean, you
+                    don`t have to attend university, you can watch them online through Canvas. But that depends on the
+                    module and lecturers. <br>
+                    Here is an explanation of each type of class:
+                </p>
+            </div>
+            <div class="grid-box">
+                <h3>Lectures</h3>
+                <p>Lectures is a presentation intended to present information or teach a particular subject to a full
+                    class.
+                    <br>Lectures are used to present critical information, history, background, theories and equations.
+                    <br>
+                    It is very important to take notes during lectures. <br><br>
+                    <span class="important">Note</span>, that after covid, instead of lectures you might be required to
+                    watch pre-recorded videos.
+                </p>
+            </div>
+            <div class="grid-box">
+                <h3>Labs</h3>
+                <p>Labs are done for smaller groups of people. They allow for hands-on practical work on something. <br>
+                    In labs, you can ask questions to the lecturer, as that is not done in the lectures. <br><br>
+                    Usually, you will need to prepare for a lab in advance and you need to attend them once a week.</p>
+            </div>
+            <div class="grid-box">
+                <h3>Seminars</h3>
+                <p>In seminars questions are explored, views are debated and analysed and students are expected to
+                    contribute to the discussion with the lecturer and other students. <br><br>
+                    You will need to prepare for the seminars in advance, so you could have a discussion about a
+                    particular topic. <br><br>
+                    Seminars usually happen every second week.</p>
+            </div>
+            <div class="grid-box">
+                <h3>Tutorials</h3>
+                <p>Tutorials are similar to labs, they are done in small groups with opportunity to ask questions to the
+                    lecturer. <br>
+                    Tutorials allow you to develop a better understanding of topics and integrate ideas from your
+                    reading and lectures. <br><br>
+                    Usually, you have to attend them once a week.</p>
+            </div>
+        </div>
+        <!-- Section of the page displayed as grid, with the green line at the top -->
+        <div class="topics">
+            <!-- Grid elements -->
+            <div class="grid-box-span">
+                <h3>Marking your attendance:</h3>
+                <p>You can mark your attendance by University app, navigating to "My attendance". Lecturer will provide
+                    you an attendace code
+                    which you will need to enter for the particular class. <br>
+                    If you have problems marking attendence, lecturer can do it for you.<br><br>
+                    <span class="important">Note</span>, it is important to mark your attendence in the first 15 minutes
+                    of the class, as you won`t be able to do it later.
+                </p>
+            </div>
+            <!-- Embedded vimeo video -->
+            <div class="grid-box-video">
+                <div style="padding:56.25% 0 20px 0;position:relative;"><iframe
+                        src="https://player.vimeo.com/video/745360574?h=e7456848c3&title=0&byline=0&portrait=0"
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <!-- used in all pages -->
+    <footer>
+        <!-- a wrapper to display as flex -->
+        <div class="flex-wrapper-footer">
+            <!-- contact info section -->
+            <div class="contact-info">
+                <p class="contact-heading">Contact us</p>
+                <p>University of Stirling</p>
+                <p>Stirling</p>
+                <p>FK9 4LA</p>
+                <p>Scotland</p>
+            </div>
+
+            <!-- map image in the footer -->
+            <a href="https://goo.gl/maps/M6EFdjY24Upq94g36" target="_blank"><img src="images/footer-map-scotland.svg"
+                    class="footer-map" alt="Map of Scotland with University of Stirling location"></a>
+
+            <!-- follow us section -->
+            <div class="follow-us">
+                <p class="follow-heading">Follow us</p>
+                <a href="https://www.facebook.com/universityofstirling/" target="_blank"><img src="images/facebook.svg"
+                        alt="Facebook icon" class="logo"></a>
+                <a href="https://www.instagram.com/universityofstirling/" target="_blank"><img
+                        src="images/instagram.svg" alt="Instagram icon" class="logo"></a>
+                <a href="https://twitter.com/StirUni" target="_blank"><img src="images/twitter.svg" alt="Twitter icon"
+                        class="logo"></a>
+                <a href="https://www.youtube.com/user/universityofstirling" target="_blank"><img
+                        src="images/youtube.png" alt="Youtube icon" class="logo"></a>
+            </div>
+
+            <!-- be the difference slogan img -->
+            <img src="images/slogan.svg" class="footer-slogan" alt="Be the difference">
+        </div>
+    </footer>
+</body>
+
+</html>
