@@ -11,6 +11,6 @@ This is a website prototype version designed to be a new student guide for the U
 
 The website is designed with a formal and easily understandable structure, following the design of other University of Stirling websites. The website uses the University of Stirling's colour scheme and design elements to maintain brand identity. All information, including the design, used in the prototype website is the property of © The University of Stirling.
 
-##License
+## License
 
 All information used in this website is for educational purposes only and is the property of © The University of Stirling. All rights, including copyrights, are reserved by them.
