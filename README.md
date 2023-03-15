@@ -1,6 +1,6 @@
 # University of Stirling New Student Guide
 
-This is a website prototype version designed to be a new student guide for the University of Stirling. The website provides useful information for new students, including multimedia elements such as videos, images, and text. The website is designed with parallax elements and is fully responsive for use on mobile phones.
+This is a website prototype version designed as part of a Software Development course. The website serves as a new student guide for the University of Stirling. The website provides useful information for new students, including multimedia elements such as videos, images, and text. The website is designed with parallax elements and is fully responsive for use on mobile phones, achieved through the use of flex and grid elements.
 ## Features
 * Lecture types: The website provides information about different lecture types to help new students understand what to expect.
 * Building locations: The website provides maps and information to help new students find buildings and classrooms.
