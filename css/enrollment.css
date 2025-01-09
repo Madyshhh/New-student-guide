@@ -1,0 +1,52 @@
+/* Content of the page displayed as grid */
+.topics {
+    width: 100%;
+    margin: 30px auto 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    border-top: 3px solid #76bd22;
+}
+
+h3 {
+    margin-top: 5px;
+    color: #006636;
+}
+
+/* First element of grid spanned through columns 1 - 2 */
+.grid-box:first-child {
+    grid-column: 1/span 2;
+}
+
+.grid-box-span {
+    grid-column: 1/ span 2;
+}
+
+
+/* Parallax image */
+.parallax {
+    margin-top: 20px;
+    background-image: url("../images/stirling-campus.jpg");
+    min-height: 422px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Media query for smaller screens, makes grid 1 column */
+@media screen and (max-width: 815px) {
+    .topics {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-box-span {
+        grid-column: 1;
+    }
+
+    .grid-box:first-child {
+        grid-column: 1;
+    }
+
+}

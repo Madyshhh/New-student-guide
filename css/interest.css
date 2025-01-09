@@ -1,0 +1,14 @@
+/* Content of the page displayed as grid */
+.topics {
+    width: 100%;
+    margin: 30px auto 0px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    border-top: 3px solid #76bd22;
+}
+
+h3 {
+    margin-top: 5px;
+    color: #006636;
+}

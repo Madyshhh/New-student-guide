@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    Created by MV in 2022
+    Information, data and design in this website is referenced from ©The University of Stirling,
+    and in this website used for educational purposes. 
+ -->
+
+<head>
+    <meta content="text/html" ; charset="utf-8">
+    </meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Author of the website -->
+    <meta name="author" content="Maddy Vetra">
+    <meta name="description" content="universityofstirling, new student guide, students, stirling">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Font import -->
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Open+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- Main stylesheet import -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Stylesheet import for each page -->
+    <link rel="stylesheet" type="text/css" href="css/apps.css">
+
+    <!-- Display on browser tab -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Apps | New student guide | University of Stirling</title>
+
+    <!-- script import and Jquery script for animations -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".main-section").slideDown(1000);
+            $("footer").delay(1000).slideDown(1000);
+        });
+    </script>
+</head>
+
+<body>
+    <!-- navigation at the top of the page -->
+    <!-- used in all pages -->
+    <div class="nav">
+        <a href="index.html" class="nav-logo-link"><img src="images/logo.svg" alt="University of Stirling logo"
+                class="nav-logo"></a>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="enrollment.html">Enrolment</a></li>
+            <li><a href="timetable.html">Timetable</a></li>
+            <li><a href="interest.html">Interest groups</a></li>
+            <li><a href="campus.html">Campus</a></li>
+            <li><a href="apps.html">Uni apps</a></li>
+        </ul>
+    </div>
+
+    <!-- breadcrumb trail section -->
+    <div class="breadcrumb-trail">
+        <p><a href="index.html">Home</a> > <a href="apps.html">University apps</a></p>
+    </div>
+
+    <!-- main section of the page -->
+    <div class="main-section">
+        <h1 class="main-heading">Apps you will need throughout university!</h1>
+        <p>Supporting your studies with increased teaching on campus and providing the right teaching tools to support
+            your learning experience is our priority. <br><br>
+        Here is an explanation of the apps you will need to use througout your time in Stirling.</p>
+
+        <!-- Section of the page displayed as grid, with the green line at the top -->
+        <div class="topics">
+            <!-- Grid elements -->
+            <div class="grid-box">
+                <h3>Canvas:</h3>
+                <p>In addition to on campus teaching, you will learn through our virtual learning environment, Canvas.
+                    This is a supportive, inclusive and active space for learning. Canvas will lead you through your
+                    module material and activities, to help keep you on track. Most live teaching sessions (online or on
+                    campus) will be recorded using ‘Listen Again’, so you can use these recordings to catch up and
+                    revise. <br><br>
+                    Canvas can be accessed through browser, and it can be dowloaded from the app store! <br><br>
+                    It is essential for you, as lecturers will be providing materials and will keep you updated about
+                    modules, on Canvas.</p>
+            </div>
+            <div class="grid-box">
+                <h3>University app:</h3>
+                <p>Get all your university services at your fingertips with our new University of Stirling app. The
+                    University of Stirling app provides real-time, on-the-go, anytime information to support you during
+                    your time at Stirling. It is available to all students and staff for free. <br><br>
+                    App features include: <br>
+
+                    Digital student or staff card <br>
+                    Book gym and exercise classes <br>
+                    Order and pay for food on campus <br>
+                    Book library study space <br>
+                    Log into Canvas and University email easily <br>
+                    Plus much more! <br><br>
+
+                    We know everyone’s experience at University is different, which is why we’ve given you the option to
+                    tailor the app to your own preferences. Simply tap the menu then drag the tiles around the screen to
+                    prioritise your favourite features. You can also switch off tiles you’re not interested in.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <!-- used in all pages -->
+    <footer>
+
+        <!-- a wrapper to display as flex -->
+        <div class="flex-wrapper-footer">
+
+            <!-- contact info section -->
+            <div class="contact-info">
+                <p class="contact-heading">Contact us</p>
+                <p>University of Stirling</p>
+                <p>Stirling</p>
+                <p>FK9 4LA</p>
+                <p>Scotland</p>
+            </div>
+
+            <!-- map image in the footer -->
+            <a href="https://goo.gl/maps/M6EFdjY24Upq94g36" target="_blank"><img src="images/footer-map-scotland.svg"
+                    class="footer-map" alt="Map of Scotland with University of Stirling location"></a>
+
+            <!-- follow us section -->
+            <div class="follow-us">
+                <p class="follow-heading">Follow us</p>
+                <a href="https://www.facebook.com/universityofstirling/" target="_blank"><img src="images/facebook.svg"
+                        alt="Facebook icon" class="logo"></a>
+                <a href="https://www.instagram.com/universityofstirling/" target="_blank"><img
+                        src="images/instagram.svg" alt="Instagram icon" class="logo"></a>
+                <a href="https://twitter.com/StirUni" target="_blank"><img src="images/twitter.svg" alt="Twitter icon"
+                        class="logo"></a>
+                <a href="https://www.youtube.com/user/universityofstirling" target="_blank"><img
+                        src="images/youtube.png" alt="Youtube icon" class="logo"></a>
+            </div>
+
+            <!-- be the difference slogan img -->
+            <img src="images/slogan.svg" class="footer-slogan" alt="Be the difference">
+        </div>
+    </footer>
+</body>
+
+</html>

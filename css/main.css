@@ -1,0 +1,244 @@
+/* Contains style for all page elements - nav menu, footer, body and main section */
+
+body {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a,
+ul,
+p {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Marcellus', serif;
+}
+
+a{
+    color: #006636;
+}
+
+a:hover{
+    text-shadow: 0px 1px 2px #01442598;
+    transition: 0.2s;
+}
+
+/* Navigation menu on the top of the page */
+.nav {
+    width: 60%;
+    min-height: 150px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo-link{
+    width: 30%;
+    min-width: 238px;
+    min-height: 53px;
+}
+
+.nav-logo{
+    width: 100%;
+    min-width: 238px;
+    min-height: 53px;
+}
+
+.nav-list {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-list li a {
+    padding: 15px 0 15px 0;
+    color: #006636;
+    font-weight: 500;
+}
+
+.nav-list a:hover {
+    text-shadow: 0px 1px 2px #01442598;
+    transition: 0.2s;
+}
+/* nav customisation ends */
+
+/* Breadcrumb trail */
+.breadcrumb-trail {
+    width: 100%;
+    height: 50px;
+    background-color: #f6f5f4;
+}
+
+.breadcrumb-trail p {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 15px;
+    color: #006636;
+}
+
+.breadcrumb-trail a {
+    color: #006636;
+}
+
+/* Breadcrumb cusomisation ends */
+
+/* Main section of the page */
+.main-section {
+    width: 60%;
+    margin: 0 auto;
+    display: none;
+}
+
+.main-heading {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #006636;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+/* Span for some words being green */
+.important {
+    color: #006636;
+}
+
+.final-version {
+    color: rgb(145, 16, 16);
+}
+
+
+/* Footer customisation */
+footer {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #3a3c39;
+    min-height: 240px;
+    font-size: 15px;
+}
+
+/* Displays footer elements as flex */
+.flex-wrapper-footer {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.flex-wrapper-footer p {
+    color: white;
+}
+
+.contact-info {
+    width: 170px;
+}
+
+.contact-info .contact-heading {
+    font-weight: bolder;
+}
+
+.footer-map {
+    margin-top: 10px;
+    height: 200px;
+}
+
+/* Follow us section displayed as grid */
+.follow-us {
+    width: 25%;
+    display: grid;
+    grid-template-columns: 18% 18% 18% 38%;
+    grid-template-rows: 30px 30px;
+    gap: 5px;
+    height: 100px;
+    padding-left: 10px;
+}
+
+.follow-us .follow-heading {
+    font-weight: bolder;
+    grid-column: 1/ span 4;
+}
+
+/* Social logos - facebook, instagram etc. */
+.logo {
+    max-height: 100%;
+    min-height: 20%;
+}
+
+.footer-slogan {
+    max-width: 500px;
+    min-width: 150px;
+}
+
+/* Media query for smaller screens than 1330px */
+/* Makes navigation menu wrap on smaller screens to be responsive */
+@media screen and (max-width:1330px) {
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .nav-list {
+        flex-wrap: wrap;
+    }
+}
+
+
+/* For screens smaller than 1180px makes navigation to be in column */
+@media screen and (max-width: 1180px) {
+    .nav-logo{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav-list {
+        flex-direction: column;
+    }
+
+    /* Makes the social logos smaller in smaller screens */
+    .logo {
+        max-height: 70%;
+    }
+
+}
+
+
+/* For smaller screens than 815px */
+@media screen and (max-width: 815px) {
+
+    /* Makes the footer to be displayed in a column */
+    .flex-wrapper-footer {
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    /* Makes the social icons smaller */
+    .follow-us {
+        width: 70%;
+        padding-left: 0px;
+        height: auto;
+    }
+}
